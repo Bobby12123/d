@@ -116,7 +116,7 @@ spawn(function()
         if detectedGame then
             word.Text = "supported game! loading ".. detectedGame.name
             if not pcall(function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/CatzCode/cat/main/Games/".. detectedGame.loadstring ..".lua"))()
+                loadstring(game:HttpGet("https://github.com/Bobby12123/d/tree/main/".. detectedGame.loadstring ..".lua"))()
             end) then 
                 word.Text = "the script failed to load!"
             end
