@@ -2643,3 +2643,429 @@ function Kavo.CreateLib(kavName, themeList)
     return Tabs
 end
 return Kavo
+
+
+-- Scripts:
+
+local function ZBTMQKH_fake_script() -- espbtn.Script 
+	local script = Instance.new('Script', espbtn)
+
+	espbtn.MouseButton1Click:Connect(function()
+		for i, a in pairs(getgc(true)) do
+			if type(a) == 'table' and rawget(a, "aimrotkickmin") then
+				a.aimrotkickmin = Vector3.new(0,0,0)
+				a.aimrotkickmax = Vector3.new(0,0,0)
+				a.aimtranskickmin = Vector3.new(0,0,0)
+				a.aimtranskickmax = Vector3.new(0,0,0)
+				a.aimcamkickmin = Vector3.new(0,0,0)
+				a.aimcamkickmax = Vector3.new(0,0,0)
+				a.rotkickmin = Vector3.new(0,0,0)
+				a.rotkickmax = Vector3.new(0,0,0)
+				a.transkickmin = Vector3.new(0,0,0)
+				a.transkickmax = Vector3.new(0,0,0)
+				a.camkickmin = Vector3.new(0,0,0)
+				a.camkickmax = Vector3.new(0,0,0)
+				a.aimcamkickspeed = 99999
+				a.modelkickspeed = 9999
+				a.modelrecoverspeed = 9999
+				a.firerate = 1000 --Change to your own
+			end
+		end
+	end)
+end
+coroutine.wrap(ZBTMQKH_fake_script)()
+local function NCLNBL_fake_script() -- chatspambtn.Script 
+	local script = Instance.new('Script', chatspambtn)
+
+	chatspambtn.MouseButton1Click:Connect(function()
+		spawn(function()
+			while wait(1) do
+				math.randomseed(os.time())
+			end
+		end)
+		local n
+	
+		for index, garbage_collected in next, getgc(true) do
+			if (type(garbage_collected) == "table" and rawget(garbage_collected, "send")) then
+				n = garbage_collected
+				break
+			end
+		end
+	
+		local phrases = {"VoteKick him hes hacking 🔥 🔥 🔥  Votekick hime hes hacking 🔥 🔥 🔥  Votekick hime hes hacking 🔥 🔥 🔥  Votekick hime hes hacking 🔥 🔥 🔥  Votekick hime hes hacking 🔥 🔥 🔥 ","Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡 Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡  Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡 Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡","Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 ","Your Bad At The Game 🤮🤮🤮 Im Good At The Game 🔥 🔥 🔥 Your Bad At The Game 🤮🤮🤮 Im Good At The Game 🔥 🔥 🔥 Your Bad At The Game 🤮🤮🤮 Your Bad At The Game 🤮🤮🤮 Your Bad At The Game 🤮🤮🤮","Your script = 🤮. My Script = 🔥 Your script = 🤮. My Script = 🔥Your script = 🤮. My Script = 🔥Your script = 🤮. My Script = 🔥Your script = 🤮. My Script = 🔥Your script = 🤮. My Script = 🔥","PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP","You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢","How to gain access I need it.🔑🔑 How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑","Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲.","Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us.","You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us.","Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜.","Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️.","You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰","⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️","dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑","Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. ","I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢","Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.","Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️","You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..","Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️","Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜","OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣","0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌","#Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning","Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀","Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌","Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️",}
+	
+		while true do
+			local sleep = math.random(1, 2)
+			wait(sleep)
+			local spam = phrases[math.random(#phrases)]
+			n:send("chatted", spam)
+		end
+	end)
+	
+end
+coroutine.wrap(NCLNBL_fake_script)()
+local function IZYSO_fake_script() -- grenadetpbtn.Script 
+	local script = Instance.new('Script', grenadetpbtn)
+
+	grenadetpbtn.MouseButton1Click:Connect(function()
+		local Camera = game:GetService("Workspace").CurrentCamera
+		local RunService = game:GetService("RunService")
+		local UserInputService = game:GetService("UserInputService")
+		local FontValue = 3
+		local Visibility = true 
+	
+		local function ClosestPlayer()
+			local closestPlayer = nil
+			local shortestDistance = math.huge
+			for _, a in pairs(game.Workspace.Players:GetChildren()) do
+				if a.Name ~= game.Players.LocalPlayer.Team.Name then
+					for _, b in pairs(a:GetChildren()) do
+						if (b.Head.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude < shortestDistance then
+							closestPlayer = b
+							shortestDistance = (b.Head.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude
+						end
+					end
+				end
+			end
+			return closestPlayer
+		end
+		local b = Vector3.new()
+		game.RunService.RenderStepped:Connect(function()
+			b = ClosestPlayer().HumanoidRootPart.Position
+		end)
+		local mt = getrawmetatable(game)
+		local oldNamecall = mt.__namecall
+		local oldIndex = mt.__index
+		setreadonly(mt, false)
+		mt.__namecall = newcclosure(function(...)
+			local method = getnamecallmethod()
+			local args = {
+				...
+			}
+			if tostring(method) == "FireServer" and args[2] == "newgrenade" then
+				for i = 1, #args[4]["frames"] do
+					if i ~= 1 then
+						args[4]["frames"][i]["p0"] = b
+					end
+				end
+				args[4]["blowuptime"] = 0
+			end
+			return oldNamecall(unpack(args))
+		end)
+		setreadonly(mt, true)
+	end)
+end
+coroutine.wrap(IZYSO_fake_script)()
+local function LIIET_fake_script() -- espbtn_2.Script 
+	local script = Instance.new('Script', espbtn_2)
+
+	espbtn_2.MouseButton1Click:Connect(function()
+		local client = {}; do
+			-- Tables
+			client.esp = {}
+	
+			-- Modules
+			for i,v in pairs(getgc(true)) do
+				if (type(v) == "table") then
+					if (rawget(v, "getplayerhealth")) then
+						client.hud = v
+					elseif (rawget(v, "getplayerhit")) then
+						client.replication = v
+					end
+				end
+			end
+	
+			client.chartable = debug.getupvalue(client.replication.getbodyparts, 1)
+		end
+	
+		client.esp.Options = {
+			Enable = true,
+			TeamCheck = true,
+			TeamColor = false,
+			VisibleOnly = false,
+			Color = Color3.fromRGB(255, 0, 255),
+			Name = true,
+			Box = true,
+			Health = true,
+			Distance = true,
+			Tracer = true
+		}
+	
+		client.esp.Services = setmetatable({}, {
+			__index = function(Self, Index)
+				local GetService = game.GetService
+				local Service = GetService(game, Index)
+	
+				if Service then
+					Self[Index] = Service
+				end
+	
+				return Service
+			end
+		})
+	
+		local function GetDrawingObjects()
+			return {
+				Name = Drawing.new("Text"),
+				Box = Drawing.new("Quad"),
+				Tracer = Drawing.new("Line"),
+			}
+		end
+	
+		local function CreateEsp(Player)
+			local Objects = GetDrawingObjects()
+			local Character = client.chartable[Player].head.Parent
+			local Head = Character.Head
+			local HeadPosition = Head.Position
+			local Head2dPosition, OnScreen = workspace.CurrentCamera:WorldToScreenPoint(HeadPosition)
+			local Origin = workspace.CurrentCamera.CFrame.p
+			local HeadPos = Head.Position
+			local IgnoreList = { Character, client.esp.Services.Players.LocalPlayer.Character, workspace.CurrentCamera, workspace.Ignore }
+			local PlayerRay = Ray.new(Origin, HeadPos - Origin)
+			local Hit = workspace:FindPartOnRayWithIgnoreList(PlayerRay, IgnoreList)
+	
+			local function Create()
+				if (OnScreen) then
+					local Name = ""
+					local Health = ""
+					local Distance = ""
+	
+					if (client.esp.Options.Name) then
+						Name = Player.Name
+					end
+	
+					if (client.esp.Options.Health) then
+						local Characters = debug.getupvalue(client.replication.getplayerhit, 1)
+						Health = " [ " .. client.hud:getplayerhealth(Characters[Character]) .. "% ]"
+					end
+	
+					if (client.esp.Options.Distance) then
+						Distance = " [ " .. math.round((HeadPosition - workspace.CurrentCamera.CFrame.p).Magnitude) .. " studs ]"
+					end
+	
+					Objects.Name.Visible = true
+					Objects.Name.Transparency = 1
+					Objects.Name.Text = string.format("%s%s%s", Name, Health, Distance)
+					Objects.Name.Size = 18
+					Objects.Name.Center = true
+					Objects.Name.Outline = true
+					Objects.Name.OutlineColor = Color3.fromRGB(0, 0, 0)
+					Objects.Name.Position = Vector2.new(Head2dPosition.X, Head2dPosition.Y)
+	
+					if (client.esp.Options.TeamColor) then
+						Objects.Name.Color = Player.Team.TeamColor.Color
+					else
+						Objects.Name.Color = Color3.fromRGB(255, 255, 255)
+					end
+	
+					if (client.esp.Options.Box) then
+						local Part = Character.HumanoidRootPart
+						local Size = Part.Size * Vector3.new(1, 1.5)
+						local Sizes = {
+							TopRight = (Part.CFrame * CFrame.new(-Size.X, -Size.Y, 0)).Position,
+							BottomRight = (Part.CFrame * CFrame.new(-Size.X, Size.Y, 0)).Position,
+							TopLeft = (Part.CFrame * CFrame.new(Size.X, -Size.Y, 0)).Position,
+							BottomLeft = (Part.CFrame * CFrame.new(Size.X, Size.Y, 0)).Position,
+						}
+	
+						local TL, OnScreenTL = workspace.CurrentCamera:WorldToScreenPoint(Sizes.TopLeft)
+						local TR, OnScreenTR = workspace.CurrentCamera:WorldToScreenPoint(Sizes.TopRight)
+						local BL, OnScreenBL = workspace.CurrentCamera:WorldToScreenPoint(Sizes.BottomLeft)
+						local BR, OnScreenBR = workspace.CurrentCamera:WorldToScreenPoint(Sizes.BottomRight)
+	
+						if (OnScreenTL and OnScreenTR and OnScreenBL and OnScreenBR) then
+							Objects.Box.Visible = true
+							Objects.Box.Transparency = 1
+							Objects.Box.Thickness = 2
+							Objects.Box.Filled = false
+							Objects.Box.PointA = Vector2.new(TL.X, TL.Y + 36)
+							Objects.Box.PointB = Vector2.new(TR.X, TR.Y + 36)
+							Objects.Box.PointC = Vector2.new(BR.X, BR.Y + 36)
+							Objects.Box.PointD = Vector2.new(BL.X, BL.Y + 36)
+	
+							if (client.esp.Options.TeamColor) then
+								Objects.Box.Color = Player.Team.TeamColor.Color
+							else
+								Objects.Box.Color = client.esp.Options.Color
+							end
+						end
+					end
+	
+					if (client.esp.Options.Tracer) then
+						local CharTorso = Character:FindFirstChild("Torso") or Character:FindFirstChild("UpperTorso")
+						local Torso, OnScreen = workspace.CurrentCamera:WorldToScreenPoint(CharTorso.Position)
+	
+						if (OnScreen) then
+							Objects.Tracer.Visible = true
+							Objects.Tracer.Transparency = 1
+							Objects.Tracer.Thickness = 2
+							Objects.Tracer.From = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
+							Objects.Tracer.To = Vector2.new(Torso.X, Torso.Y + 36)
+	
+							if (client.esp.Options.TeamColor) then
+								Objects.Tracer.Color = Player.Team.TeamColor.Color
+							else
+								Objects.Tracer.Color = client.esp.Options.Color
+							end
+						end
+					end
+				end
+			end
+	
+			if (client.esp.Options.VisibleOnly) then
+				if (Hit == nil) then
+					Create()
+				end
+			else
+				Create()
+			end
+	
+			client.esp.Services.RunService.Heartbeat:Wait()
+			client.esp.Services.RunService.Heartbeat:Wait()
+	
+			Objects.Name:Remove()
+			Objects.Box:Remove()
+			Objects.Tracer:Remove()
+		end
+	
+		client.esp.Services.RunService.RenderStepped:Connect(function()
+			local LocalPlayer = client.esp.Services.Players.LocalPlayer
+	
+			for i,v in pairs(client.esp.Services.Players:GetPlayers()) do
+				if (v and client.chartable[v] and v.Name ~= LocalPlayer.Name) then
+					if (client.esp.Options.Enable) then
+						if (client.esp.Options.TeamCheck) then
+							if (v.Team ~= LocalPlayer.Team) then
+								CreateEsp(v)
+							end
+						else
+							CreateEsp(v)
+						end
+					end
+				end
+			end
+		end)
+	end)
+end
+coroutine.wrap(LIIET_fake_script)()
+local function LZPB_fake_script() -- Aimbottttt.Script 
+	local script = Instance.new('Script', Aimbottttt)
+
+	Aimbottttt.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bobby12123/aim/main/README.md"))()
+	
+	end)
+end
+
+
+
+coroutine.wrap(LZPB_fake_script)()
+local function KHZCJE_fake_script() -- StatValue.Rainbower 
+	local script = Instance.new('LocalScript', StatValue)
+
+	while wait() do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g+(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r-(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g-(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r+(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(KHZCJE_fake_script)()
+
+
+local script = Instance.new('LocalScript', ScreenGui)
+
+local button = "RightControl"
+local screengui = script.Parent
+game:GetService("UserInputService").InputBegan:connect(function(key)
+	if key.KeyCode == Enum.KeyCode.RightControl then
+		if screengui.Enabled == true then 
+			screengui.Enabled = false
+		else
+			screengui.Enabled = true
+		end
+	end
+end)
+
+
+local script = Instance.new('LocalScript', mainfuncbtn)
+
+local button = script.Parent
+local frame = script.Parent.Parent.Parent.functionsframe
+local frame2 = script.Parent.Parent.Parent.otherframe
+
+
+button.MouseButton1Click:Connect(function()
+	frame:TweenPosition(UDim2.new(0.324, 0, 0, 10), "InOut", "Quad", .5, true)
+	frame2:TweenPosition(UDim2.new(0.324, 0, -1, 0), "InOut", "Quad", .5, true)
+end)
+
+local script = Instance.new('LocalScript', otherbtn)
+
+local button = script.Parent
+local frame2 = script.Parent.Parent.Parent.functionsframe
+local frame = script.Parent.Parent.Parent.otherframe
+
+
+button.MouseButton1Click:Connect(function()
+	frame:TweenPosition(UDim2.new(0.324, 0, 0, 10), "InOut", "Quad", .5, true)
+	frame2:TweenPosition(UDim2.new(0.324, 0, 1, 0), "InOut", "Quad", .5, true)
+end)
+
+local script = Instance.new('LocalScript', worldchangecolourbtn)
+
+local button = script.Parent
+local toggle = script.Parent.TextLabel
+
+button.MouseButton1Click:Connect(function()
+	if toggle.BackgroundColor3 == Color3.new(1, 1, 1) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(0, 255, 0)
+		}):Play()
+	elseif toggle.BackgroundColor3 == Color3.new(0, 1, 0) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+		}):Play()
+	end
+end)
+
+
+local script = Instance.new('LocalScript', grenadetpbtn)
+
+local button = script.Parent
+local toggle = script.Parent.TextLabel
+
+button.MouseButton1Click:Connect(function()
+	if toggle.BackgroundColor3 == Color3.new(1, 1, 1) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(0, 255, 0)
+		}):Play()
+	elseif toggle.BackgroundColor3 == Color3.new(0, 1, 0) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+		}):Play()
+	end
+end)
+
